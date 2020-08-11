@@ -47,6 +47,7 @@ namespace Tut_P1
             Student s3 = new Student(102, "Brown", "Mark");
 
             //listBoxData.Items.Add(s2.Id + " " + s2.Firstname + " " + s2.Surname + " " + s2.Haspaid);
+            listBoxData.Items.Add(s1.ToString());
             listBoxData.Items.Add(s2.ToString());
             listBoxData.Items.Add(s3.ToString());
         }

@@ -12,12 +12,16 @@ namespace Tut_P1
         // All of the fields (data)
 
         // All of the methods
+        // the constructor is a method inside an object that is called automatically when an object is created. It is used to initialise the objects data to some values.
+        // The constructor does not have a return datatype when it is created.
+        // The constructor has to have the same name as the class
 
         private int _id;
         private string _firstname;
         private string _surname;
         private bool _hasPaid;
 
+        // This are constructors #########################################################################################################################
         /// <summary>
         /// This constructor method will initialise the fields to default values
         /// </summary>
@@ -43,13 +47,14 @@ namespace Tut_P1
             _hasPaid = false;
         }
 
+        // This is a property #############################################################################################################################
         /// <summary>
         /// Gets and sets the surname of the student
         /// </summary>
         public string Surname
         {
             get { return _surname; }
-            set { _surname = value; }
+            set { _surname = value; } // special variable called value 
         }
 
         /// <summary>
