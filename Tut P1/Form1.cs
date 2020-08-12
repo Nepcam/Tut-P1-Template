@@ -21,22 +21,22 @@ namespace Tut_P1
 
         private void buttonCalculator_Click(object sender, EventArgs e)
         {
-            //Calculator calc = new Calculator(100);
+            Calculator calc = new Calculator(100);
 
-            //calc.Add(155);
+            calc.Add(155);
 
-            //listBoxData.Items.Add(calc.ToString() + " = 0x" + calc.Hex);
+            listBoxData.Items.Add(calc.ToString() + " = 0x" + calc.Hex);
 
-            //calc.Multiply(16);
-            //listBoxData.Items.Add(calc.ToString() + " = 0x" + calc.Hex);
-            //if (calc.Value > 256)
-            //{
-            //    calc.Clear();
-            //}
-            //calc.Add(7);
-            //calc.Multiply(256);
-            //calc.Add(7);
-            //listBoxData.Items.Add(calc.ToString() + " = 0x" + calc.Binary);
+            calc.Multiply(16);
+            listBoxData.Items.Add(calc.ToString() + " = 0x" + calc.Hex);
+            if (calc.Value > 256)
+            {
+                calc.Clear();
+            }
+            calc.Add(7);
+            calc.Multiply(256);
+            calc.Add(7);
+            listBoxData.Items.Add(calc.ToString() + " = 0x" + calc.Binary);
         }
 
         private void buttonStudent_Click(object sender, EventArgs e)
